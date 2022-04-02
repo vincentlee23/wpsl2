@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcome{
+    background-color: #e5edeb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-nav{
+    margin-top: 50px;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+.welcome-nav p{
+    font-size: 30px;
+}
+
+.welcome-nav-links{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.welcome-nav-links a{
+    text-decoration: none;
+    color: black;
+    background-color: #99d6ed;
+}
+
+.register-form{
+    background-color: #c2f0f7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form form table caption{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.successful-register{
+    width: 100%;
+    height: 100vh;
+    background-color: #c2f0f7;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.unsuccessful-login{
+    width: 100%;
+    height: 100vh;
+    background-color: #c2f0f7;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.login-page{
+    background-color: #fbfdac;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-table{
+    padding: 50px;
+    background-color: #ace6fd;
+}
+
+.login-page p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-table table tr td button{
+    background-color: #a5ffa8;
+    border: none;
+}
+
+.form-table table tr td a{
+    background-color: #ffe3ad;
+    text-decoration: none;
+    color: black;
+}
+
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: #f9ffca;
+    padding: 20px;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cad1ff;
+    width: 100%;
+    height: 88vh;
+}
+
+.home-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile-content{
+    background-color: #cad1ff;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-content-title{
+    position: absolute;
+    top: 100px;
+}
+
+.profile-content table tr td img{
+    height: 100px;
+    width: 70px;
+}
+
+.update-form{
+    background-color: #c2f0f7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-profile{
+    width: 100%;
+    height: 28vh;
+    background-color: #cad1ff;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-profile a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
